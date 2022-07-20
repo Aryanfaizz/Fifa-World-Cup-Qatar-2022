@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+
+    background-color: rgb(46, 2, 46);
+    ;
+
+}
+
+/*
+
+Primary Section Starts Here
+
+*/
+
+.primary-division {
+
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(61, 5, 40), rgb(51, 4, 49));
+    border-radius: 20px;
+    margin: 140px;
+    margin-top: 30px;
+    padding: 30px;
+    padding-bottom: 90px;
+
+}
+
+
+/* 
+
+Left Sub-division 
+
+*/
+
+.sub-left-div {
+
+    margin-left: 105px;
+    margin-top: 110px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.fifa-world-heading,
+.welcome-paragraph {
+
+    color: rgb(255, 255, 255);
+
+}
+
+.fifa-world-heading {
+
+    transition: 4s;
+    line-height: 75px;
+
+}
+
+.qatar-word {
+
+    font-size: 50px;
+
+
+}
+
+.year-head {
+
+    font-size: 100px;
+    color: rgb(155, 7, 46);
+}
+
+
+.welcome-paragraph {
+
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 150px;
+
+}
+
+
+.watch-live-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(245, 245, 245), rgb(201, 201, 201));
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+    font-size: 20px;
+
+}
+
+.watch-live-button:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+
+}
+
+
+
+/* 
+
+Right Sub-division
+
+*/
+
+
+.sub-right-div {
+
+    margin: 50px;
+    margin-right: 70px;
+
+}
+
+.fifa-logo {
+
+    height: 450px;
+    width: 400px;
+    margin-right: 50px;
+
+}
+
+
+/* 
+
+Middle Section
+
+*/
+.champion-section {
+
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 40px;
+
+}
+
+.middle-division {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 2, 46);
+    margin: 0px;
+}
+
+
+
+.button-list {
+
+    padding: 50px;
+    margin-top: 25px;
+    margin-bottom: 550px;
+    background-color: rgb(63, 7, 63);
+
+
+}
+
+.button-list-button {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 4, 73);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 0px;
+    text-align: center;
+
+}
+
+.button-list-button:hover {
+
+    opacity: 0.5;
+
+}
+
+
+.button-list-1 {
+
+    background-color: rgb(139, 82, 139);
+
+}
+
+.blog-grid-section {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.event,
+.date-time {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.event {
+
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.date-time {
+
+    font-size: 15px;
+
+}
+
+.blog-part {
+
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(66, 1, 66);
+    padding: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+
+    background-color: rgb(31, 3, 31);
+    padding: 150px;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+.footer-header {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-link-division {
+
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 50px;
+    justify-content: center;
+    padding: 10px;
+    border-top: 2px solid rgb(83, 3, 83);
+    line-height: 100px;
+
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+
+}
+
+.footer-links-logo-div {
+
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.footer-links-logo {
+
+    margin: 40px;
+    margin-top: 60px;
+
+}
+
+
+/* MOBILE DEVICES */
+
+@media only screen and (max-width: 668px) {
+
+    body {
+
+        margin: 0px;
+        width: 100%;
+
+    }
+
+    .primary-division {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        justify-content: center;
+        margin: 30px;
+        margin-top: 50px;
+        padding: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 200px;
+
+    }
+
+
+    .sub-left-div {
+
+        text-align: center;
+        margin: 0px;
+        margin-top: 50px;
+
+    }
+
+    .fifa-world-heading {
+
+        justify-content: center;
+        padding: 50px;
+
+    }
+
+    .welcome-paragraph {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        padding: 0%;
+        width: 100%;
+        font-size: 13px;
+        /* border: 1px solid cornflowerblue; */
+
+
+
+    }
+
+    .button-list {
+        margin-bottom: 10px;
+        width: auto;
+
+    }
+
+    .blog-img {
+
+
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+
+    }
+
+    .sub-right-div {
+
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+
+    .fifa-logo {
+
+        position: relative;
+
+        top: 150px;
+        height: 350px;
+        width: 300px;
+        margin: 0%;
+    }
+
+
+    .champion-section {
+
+        display: none;
+
+    }
+
+    .middle-division {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+    }
+
+
+
+
+    .blog-grid-section {
+
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+        border: 50px;
+        padding: 20px;
+
+
+    }
+
+    .blog-part {
+
+        margin: 0;
+        padding: 0%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+
+
+    }
+
+
+    .footer-header {
+
+        text-align: center;
+    }
+
+    .footer-link-division {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        white-space: nowrap;
+        text-align: start;
+        line-height: 50px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+
+    .primary-division {
+
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .middle-division {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+    }
+
+
+
+    .button-list {
+
+        margin: 0px;
+
+    }
+
+    .button-list-button {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+
+    }
+
+    .blog-grid-section {
+
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px;
+        border: 0px;
+        padding: 20px;
+
+
+    }
+
+    .blog-part-9 {
+
+        display: none;
+
+    }
+
+
+}

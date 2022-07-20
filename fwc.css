@@ -1,3 +1,12 @@
+/* 
+
+-----------------
+Common Properties
+-----------------
+
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -55,12 +64,14 @@ Left Sub-division
     font-size: 30px;
 }
 
+
 .fifa-world-heading,
 .welcome-paragraph {
 
     color: rgb(255, 255, 255);
 
 }
+
 
 .fifa-world-heading {
 
@@ -143,12 +154,19 @@ Left Sub-division
     padding: 30px;
 }
 
+/* Sub-Left Division Ends Here */
+
+
+
+
+
 
 
 /* 
 
+------------------
 Right Sub-division
-
+------------------
 */
 
 
@@ -170,18 +188,24 @@ Right Sub-division
 
 /* 
 
+--------------
 Middle Section
+--------------
 
 */
+
 
 .middle-division {
 
     display: flex;
     justify-content: center;
-    /* background-color: rgb(46, 2, 46); */
     margin: 0px;
 
 }
+
+
+/* Upcoming Event Page Properties */
+
 
 
 .ver {
@@ -197,6 +221,7 @@ Middle Section
 
 }
 
+/* Versus Heading */
 .versus {
 
     text-align: center;
@@ -204,6 +229,7 @@ Middle Section
     position: relative;
     top: 30px;
 }
+
 
 
 
@@ -313,7 +339,7 @@ Middle Section
     padding-top: 25px;
 }
 
-
+/* Upcoming Event Hidden Cards */
 .blog-extra {
 
     display: none;
@@ -509,6 +535,18 @@ MOBILE DEVICES
 
     }
 
+
+    .fifa-logo {
+
+        position: relative;
+
+        top: 150px;
+        height: 350px;
+        width: 300px;
+        margin: 0%;
+    }
+
+
     .blog-grid-section {
 
         justify-items: center;
@@ -535,16 +573,6 @@ MOBILE DEVICES
 
     }
 
-
-    .fifa-logo {
-
-        position: relative;
-
-        top: 150px;
-        height: 350px;
-        width: 300px;
-        margin: 0%;
-    }
 
 
     .champion-section {
@@ -608,6 +636,10 @@ MOBILE DEVICES
 
 
 }
+
+
+
+
 
 /* 
 -------------

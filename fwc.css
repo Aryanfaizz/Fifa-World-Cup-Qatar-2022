@@ -8,22 +8,26 @@
 
 body {
 
-    background-color: rgb(46, 2, 46);
-    ;
+    background-color: rgb(37, 2, 30);
 
 }
 
 /*
 
+---------------------------
+
 Primary Section Starts Here
 
+--------------------------
 */
+
 
 .primary-division {
 
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(rgb(61, 5, 40), rgb(51, 4, 49));
+    /* background-image: linear-gradient(rgb(61, 5, 40), rgb(51, 4, 49)); */
+    background-image: linear-gradient(rgb(94, 2, 52), rgb(37, 2, 30));
     border-radius: 20px;
     margin: 140px;
     margin-top: 30px;
@@ -35,7 +39,11 @@ Primary Section Starts Here
 
 /* 
 
+-----------------
+
 Left Sub-division 
+
+-----------------
 
 */
 
@@ -56,10 +64,11 @@ Left Sub-division
 
 .fifa-world-heading {
 
-    transition: 4s;
+    transition: 6s;
     line-height: 75px;
 
 }
+
 
 .qatar-word {
 
@@ -75,6 +84,7 @@ Left Sub-division
 }
 
 
+
 .welcome-paragraph {
 
     font-size: 20px;
@@ -86,7 +96,7 @@ Left Sub-division
 
 .watch-live-button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(245, 245, 245), rgb(201, 201, 201));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(250, 250, 250));
     color: rgb(0, 0, 0);
     position: relative;
     top: 50px;
@@ -94,13 +104,43 @@ Left Sub-division
     border-radius: 10px;
     transition: 1s;
     font-size: 20px;
+    font-weight: bolder;
+}
+
+
+@keyframes blinking {
+
+    from {
+
+        color: rgb(216, 15, 48);
+
+    }
+
+
+
+    to {
+        color: rgb(13, 228, 13);
+
+    }
 
 }
+
+
+.fa-circle {
+
+    color: rgb(146, 20, 68);
+    padding: 10px;
+    animation: blinking 2s ease 0s infinite alternate;
+}
+
+
+
+
 
 .watch-live-button:hover {
     transition: 0.2s;
     opacity: 0.5;
-
+    padding: 30px;
 }
 
 
@@ -133,22 +173,36 @@ Right Sub-division
 Middle Section
 
 */
-.champion-section {
-
-    display: flex;
-    font-size: 50px;
-    justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 40px;
-
-}
 
 .middle-division {
 
     display: flex;
     justify-content: center;
-    background-color: rgb(46, 2, 46);
+    /* background-color: rgb(46, 2, 46); */
     margin: 0px;
+
+}
+
+
+.ver {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.flags {
+
+    margin: 20px;
+
+}
+
+.versus {
+
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
 }
 
 
@@ -159,7 +213,7 @@ Middle Section
     margin-top: 25px;
     margin-bottom: 550px;
     background-color: rgb(63, 7, 63);
-
+    background-image: linear-gradient(rgb(94, 2, 52), rgb(37, 2, 30));
 
 }
 
@@ -167,7 +221,7 @@ Middle Section
     text-decoration: none;
     display: block;
     color: rgb(255, 255, 255);
-    background-color: rgb(83, 4, 73);
+    background-color: rgb(121, 1, 71);
     margin: 20px;
     padding: 30px;
     border-radius: 0px;
@@ -184,9 +238,26 @@ Middle Section
 
 .button-list-1 {
 
-    background-color: rgb(139, 82, 139);
+    background-color: rgb(241, 237, 243);
+    color: black;
 
 }
+
+
+
+.button-home {
+
+    background-color: rgb(121, 1, 71);
+    color: white;
+}
+
+.button-event {
+
+    background-color: rgb(241, 237, 243);
+    color: black;
+
+}
+
 
 .blog-grid-section {
 
@@ -194,6 +265,7 @@ Middle Section
     grid-template-columns: repeat(3, 1fr);
 
 }
+
 
 .event,
 .date-time {
@@ -208,28 +280,80 @@ Middle Section
 
     font-size: 20px;
     margin-top: 20px;
-
+    color: #f8a06d;
 }
 
 .date-time {
 
     font-size: 15px;
-
+    color: rgb(196, 10, 118);
 }
 
 .blog-part {
 
     margin: 20px;
-    border-radius: 20px;
-    background-color: rgb(66, 1, 66);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(94, 2, 52), rgb(37, 2, 30));
     padding: 20px;
 
 
 }
 
+.blog-img {
+
+    color: aliceblue;
+}
+
+.blog-part:hover {
 
 
+    position: relative;
+    bottom: 30px;
+    transition: 0.5s;
+    padding-top: 25px;
+}
 
+
+.blog-extra {
+
+    display: none;
+
+}
+
+.fa-bell {
+
+    padding-left: 10px;
+
+}
+
+.button-list-blog-button {
+
+    padding: 10px;
+    background-color: rgb(121, 1, 71);
+    border-radius: 20px;
+
+}
+
+.bottom-button-div {
+    display: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.button-bottom {
+
+    display: none;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    justify-items: center;
+    background-color: rgb(126, 6, 96);
+}
 
 
 
@@ -240,8 +364,9 @@ Middle Section
 
     background-color: rgb(31, 3, 31);
     padding: 150px;
+    padding-bottom: 50px;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 
 }
 
@@ -291,14 +416,32 @@ Middle Section
 }
 
 
-/* MOBILE DEVICES */
+
+
+
+
+
+
+/* 
+
+--------------
+MOBILE DEVICES
+--------------
+
+*/
 
 @media only screen and (max-width: 668px) {
 
     body {
 
-        margin: 0px;
+        margin: 0%;
         width: 100%;
+
+    }
+
+    .primary-section {
+
+        padding: 20px;
 
     }
 
@@ -306,25 +449,36 @@ Middle Section
 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        position: relative;
         justify-content: center;
-        margin: 30px;
+        margin: 20px;
         margin-top: 50px;
-        padding: 50px;
+        padding: 0px;
         padding-left: 0px;
         padding-right: 0px;
         padding-bottom: 200px;
-
     }
 
 
+
+
     .sub-left-div {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
 
         text-align: center;
         margin: 0px;
         margin-top: 50px;
 
     }
+
+    .welcome-paragraph-div {
+
+        display: block;
+        justify-content: center;
+    }
+
+
 
     .fifa-world-heading {
 
@@ -334,13 +488,14 @@ Middle Section
     }
 
     .welcome-paragraph {
-        display: flex;
-        justify-content: center;
+
         text-align: center;
         margin-top: 20px;
         margin-bottom: 5px;
-        padding: 0%;
-        width: 100%;
+        padding: 0 20px;
+        margin-left: 0;
+        margin-right: 0px;
+
         font-size: 13px;
         /* border: 1px solid cornflowerblue; */
 
@@ -351,6 +506,12 @@ Middle Section
     .button-list {
         margin-bottom: 10px;
         width: auto;
+
+    }
+
+    .blog-grid-section {
+
+        justify-items: center;
 
     }
 
@@ -424,6 +585,12 @@ Middle Section
 
     }
 
+    .button-bottom {
+
+        display: none;
+
+    }
+
 
     .footer-header {
 
@@ -442,12 +609,58 @@ Middle Section
 
 }
 
+/* 
+-------------
+Tablet Device
+-------------
+*/
+
 @media only screen and (min-width: 688px) and (max-width:992px) {
+
+    body {
+
+        margin: 0%;
+
+    }
+
 
     .primary-division {
 
-        width: 100%;
-        margin-top: 20px;
+
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        border-radius: 0;
+        margin-left: 0px;
+        padding: 0px;
+        padding-bottom: 90px;
+        margin-right: 0px;
+        margin: 0px;
+        padding: 20px;
+        padding-bottom: 50px;
+
+    }
+
+    .sub-left-div {
+
+        margin: 0px;
+        padding: 50px;
+        margin-left: 0px;
+        padding-left: 80px;
+        padding-bottom: 50px;
+
+
+    }
+
+    .welcome-paragraph {
+
+        font-size: 15px;
+
+    }
+
+    .fifa-logo {
+        position: relative;
+        top: 100px;
 
     }
 
@@ -464,6 +677,8 @@ Middle Section
     .button-list {
 
         margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
 
     }
 
@@ -476,6 +691,7 @@ Middle Section
     .blog-grid-section {
 
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
         margin: 0px;
         border: 0px;
         padding: 20px;
@@ -489,5 +705,13 @@ Middle Section
 
     }
 
+
+    .footer-link-division {
+
+
+        display: flex;
+        justify-content: space-around;
+
+    }
 
 }

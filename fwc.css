@@ -360,6 +360,25 @@ Middle Section
 
 }
 
+.fa-bookmark {
+
+    padding-left: 10px;
+
+}
+
+.fa-youtube {
+
+    padding-left: 10px;
+
+}
+
+.fa-magnifying-glass {
+
+    padding-left: 10px;
+
+}
+
+
 .bottom-button-div {
     display: none;
     display: flex;

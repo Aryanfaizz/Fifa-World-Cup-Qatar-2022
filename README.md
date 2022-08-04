@@ -42,3 +42,5 @@ Required Tasks: (Responsive-HTML-CSS ONLY Without Framework)
 3. There should be a View All Button only at Tablet View. ✅
 4. Different Color, Clean Code with Comments. ✅
 5. Framework, Preprocessor is Prohibited. ✅
+
+MARKS: 60/60
